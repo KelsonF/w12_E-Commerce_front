@@ -7,7 +7,7 @@
     "build": "next build",
     "start": "next start -p 8080",
     "lint": "next lint",
-    "test": "vitest --watch"
+    "test": "vitest --watch; node .github/setup.js"
   },
   "dependencies": {
     "@tanstack/react-query": "^5.71.5",
